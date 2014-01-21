@@ -1,24 +1,24 @@
 # depslib dependency file v1.0
-1389709717 source:z:\sudoku\main.c
+1390313399 source:z:\sudoku\main.c
 	"init.h"
 	"affichage.h"
 	"decodage.h"
 
-1389362452 source:z:\sudoku\affichage.c
+1390301541 source:z:\sudoku\affichage.c
 	"affichage.h"
 
-1389361837 source:z:\sudoku\init.c
+1390301542 source:z:\sudoku\init.c
 	"init.h"
 	"affichage.h"
 
-1389359887 z:\sudoku\affichage.h
+1390301542 z:\sudoku\affichage.h
 	<stdio.h>
 	<stdlib.h>
 	<math.h>
 	<string.h>
 	"init.h"
 
-1389359826 z:\sudoku\init.h
+1390301542 z:\sudoku\init.h
 	<stdio.h>
 	<stdlib.h>
 
@@ -40,13 +40,14 @@
 	<math.h>
 	"solver.h"
 
-1389709717 source:z:\sudoku\decodage.c
+1390314529 source:z:\sudoku\decodage.c
 	"decodage.h"
 
-1389709755 z:\sudoku\decodage.h
+1390314436 z:\sudoku\decodage.h
 	<stdio.h>
 	<stdlib.h>
 	<math.h>
 	<string.h>
+	<windows.h>
 	"init.h"
 

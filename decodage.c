@@ -1,43 +1,36 @@
 #include "decodage.h"
 
-char *str_sub (const char *s, unsigned int start, unsigned int end)
-{
-   char *new_s = NULL;
 
-   if (s != NULL && start < end)
-   {
-/* (1)*/
-      new_s = malloc (sizeof (*new_s) * (end - start + 2));
-      if (new_s != NULL)
-      {
-         int i;
+void appel_sat(){
 
-/* (2) */
-         for (i = start; i <= end; i++)
-         {
-/* (3) */
-            new_s[i-start] = s[i];
-         }
-         new_s[i-start] = '\0';
-      }
-      else
-      {
-         fprintf (stderr, "Memoire insuffisante\n");
-         exit (EXIT_FAILURE);
-      }
-   }
-   return new_s;
+    system("start batch.bat" ); // " java -jar sat4j-sat.jar test1.cnf > patate2.txt " appel avec test1.cnf en paramètre et écriture dans patate2.txt
+    }
+
+
+
+char *decoupage (const char *fichier){
+        char chaine[7000]="";
+        while ( fgets(chaine,7000, fichier) != NULL )
+            {
+
+                 if ( chaine[0]== 'v' ){
+                    return chaine;
+                }
+            }
+            return;
 }
 
-char decoupage (const char *decode){
-    char *solution;
-    char *debut_sol;
+void resolution(){
+    appel_sat();
+    FILE *decode = NULL;
+    decode = fopen("patate2.txt","r");
+    Sleep(2000);
+    printf("%s",decode);
     if (decode == NULL){
         printf("Le fichier ne peut pas etre ouvert \n ");
         return 0;
-    }
-    debut_sol=strchr(decode,'S');
-    printf("ADRESSE : %d",debut_sol);
-    solution=str_sub(decode,debut_sol,SEEK_END);
-    return solution;
+        }
+    printf("SOLUTION : \n %s",decoupage(decode));
+    fclose(decode);
 }
+
