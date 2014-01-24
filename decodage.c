@@ -23,8 +23,8 @@ char *decoupage (const char *fichier){
 void resolution(){
     appel_sat();
     FILE *decode = NULL;
-    decode = fopen("patate2.txt","r");
     Sleep(2000);
+    decode = fopen("patate2.txt","r");
     printf("%s",decode);
     if (decode == NULL){
         printf("Le fichier ne peut pas etre ouvert \n ");
