@@ -1,0 +1,68 @@
+# depslib dependency file v1.0
+1390578937 source:c:\users\a21102367.adaix\desktop\sat_v1\sudoku_v1\affichage.c
+	"affichage.h"
+
+1390579137 c:\users\a21102367.adaix\desktop\sat_v1\sudoku_v1\affichage.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"Unmonprojet.h"
+	"regles.h"
+	"satgrille.h"
+
+1390579058 c:\users\a21102367.adaix\desktop\sat_v1\sudoku_v1\unmonprojet.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"affichage.h"
+	"regles.h"
+	"satgrille.h"
+
+1390580125 source:c:\users\a21102367.adaix\desktop\sat_v1\sudoku_v1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Unmonprojet.h"
+	"affichage.h"
+	"regles.h"
+	"satgrille.h"
+	"decodage.h"
+
+1390579530 c:\users\a21102367.adaix\desktop\sat_v1\sudoku_v1\regles.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"Unmonprojet.h"
+	"affichage.h"
+	"satgrille.h"
+
+1390580448 c:\users\a21102367.adaix\desktop\sat_v1\sudoku_v1\satgrille.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Unmonprojet.h"
+	"affichage.h"
+	"regles.h"
+
+1390579530 source:c:\users\a21102367.adaix\desktop\sat_v1\sudoku_v1\regles.c
+	"regles.h"
+
+1390580399 source:c:\users\a21102367.adaix\desktop\sat_v1\sudoku_v1\satgrille.c
+	"satgrille.h"
+
+1390579745 source:c:\users\a21102367.adaix\desktop\sat_v1\sudoku_v1\unmonprojet.c
+	"Unmonprojet.h"
+
+1390580399 source:c:\users\a21102367.adaix\desktop\sat_v1\sudoku_v1\decodage.c
+	"decodage.h"
+
+1390579988 c:\users\a21102367.adaix\desktop\sat_v1\sudoku_v1\decodage.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<windows.h>
+
